@@ -12,8 +12,6 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: dashy-docs
-  app:
-    baseUrl: /
   auth:
     enableKeycloak: true
     keycloak:

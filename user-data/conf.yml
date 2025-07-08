@@ -45,17 +45,23 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
 
-- name: Monitoring
-  icon: fas fa-rocket
-  items:
-  - title: Skywalking
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://skywalking.besmart.travel/General-Service/Services
-    target: newtab  
-  - title: grafana
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://loki.besmart.travel/?orgId=1
-    target: newtab    
+  - name: Infrastructure & Networking
+    icon: fas fa-server
+    items:
+      - name: Proxmox Server 1
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24d4hZDCTtwDNmfd24uH598v5vCLGDZs-fw&s
+        url: https://137.74.94.24:8006/#v1:0:=qemu%2F300:4
+        description: Primary virtualization host
+      - name: Proxmox Server 2
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24d4hZDCTtwDNmfd24uH598v5vCLGDZs-fw&s
+        url: https://164.132.203.24:8006/#v1:0:=qemu%2F104:4
+        description: Secondary virtualization host
+      - name: pfSense Firewall 1
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2_aDhiJNXTfR9ERGP3tcQ-Iobo9dRfV7Qw&s
+        url: https://176.31.75.57/
+        description: Primary Firewall 
+      - name: pfSense Firewall 2
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2_aDhiJNXTfR9ERGP3tcQ-Iobo9dRfV7Qw&s
+        url: http://91.121.35.184/
+        description: Secondary Firewall
   

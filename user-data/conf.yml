@@ -15,35 +15,6 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
 
 - name: Infrastructure & Networking
   icon: fas fa-server
@@ -142,6 +113,27 @@ sections:
     icon: https://images.icon-icons.com/2699/PNG/512/rabbitmq_logo_icon_170812.png
     target: newtab  
 
+- name: Development Services
+  icon: fas fa-chart-line
+  items:
+  - title: Keycloak (Develop)
+    url: https://auth.develop.besmart.travel/admin/master/console/
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Logo_of_Keycloak.svg/2560px-Logo_of_Keycloak.svg.png
+    target: newtab
+  - title: WSO2 (Develop)
+    url: https://am.develop.besmart.travel/
+    icon: https://wso2.cachefly.net/wso2/sites/all/image_resources/wso2-branding-logos/wso2-logo.png
+    target: newtab  
+  - title: Operator Camunda (Develop)
+    url: http://operate.zeebe.develop.besmart.travel/
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpG4EFH7TYMv_JGvF10FBq9EuUAVQNvz-GwA&s
+    target: newtab            
+  - title: RabbitMQ (Develop)
+    url: https://rabbitmq-management-ui.develop.beprimetech.com/#/
+    icon: https://images.icon-icons.com/2699/PNG/512/rabbitmq_logo_icon_170812.png
+    target: newtab  
+
+
 - name: Documentation
   icon: fas fa-book
   items:
@@ -150,3 +142,34 @@ sections:
     url: https://wiki.besmart.travel/
     icon: https://repository-images.githubusercontent.com/65848095/7655d480-b066-11e9-991b-81088c474331
     target: newtab     
+
+
+- name: Getting Started
+  icon: fas fa-rocket
+  items:
+  - title: Dashy Live
+    description: Development a project management links for Dashy
+    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+    url: https://live.dashy.to/
+    target: newtab
+  - title: GitHub
+    description: Source Code, Issues and Pull Requests
+    url: https://github.com/lissy93/dashy
+    icon: favicon
+  - title: Docs
+    description: Configuring & Usage Documentation
+    provider: Dashy.to
+    icon: far fa-book
+    url: https://dashy.to/docs
+  - title: Showcase
+    description: See how others are using Dashy
+    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+    icon: far fa-grin-hearts
+  - title: Config Guide
+    description: See full list of configuration options
+    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+    icon: fas fa-wrench
+  - title: Support
+    description: Get help with Dashy, raise a bug, or get in contact
+    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+    icon: far fa-hands-helping

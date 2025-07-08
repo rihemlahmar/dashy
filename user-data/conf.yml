@@ -89,6 +89,64 @@ sections:
     icon: https://miro.medium.com/v2/resize:fit:256/1*2b4k1_SmKkNRgqZV-NMFQg.png
     target: newtab    
   
+
+- name: Monitoring & Observability
+  icon: fas fa-chart-line
+  items:
+  - title: Grafana
+    description: Metrics and Dashboards
+    url: https://loki.besmart.travel/?orgId=1
+    icon: https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/grafana-ipeuuhi0ws3fbikv7ojrk.png/grafana-625ktq51icaz2carazn0n.png?_a=DATAdtAAZAA0
+    target: newtab
+  - title: Uptime Kuma
+    description: Service Status Monitoring
+    url: http://34.76.174.130:3001/dashboard/12
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuq04I_S43TmHIzsOyCTL2zKGbAYgyudIGLA&s
+    target: newtab  
+  - title: SkyWalking
+    description: Application Performance Monitoring
+    url: https://skywalking.besmart.travel/
+    icon: https://camo.githubusercontent.com/3c1c90326c643c326f679f7aadc1db816c5211644589349ee7396fe70e92114e/687474703a2f2f736b7977616c6b696e672e6170616368652e6f72672f6173736574732f6c6f676f2e737667
+    target: newtab  
+  - title: Wso2 ELK Dashboard
+    description: Gateway Performance Monitoring
+    url: https://am-monitor.besmart.travel/app/home#/
+    icon: https://img.icons8.com/color/600/kibana.png
+    target: newtab      
       
-     
-  
+- name: Production Services
+  icon: fas fa-chart-line
+  items:
+  - title: Keycloak (Production)
+    description: Production Identity & Access Management
+    url: https://auth.besmart.travel/admin/master/console/#/master/users
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Logo_of_Keycloak.svg/2560px-Logo_of_Keycloak.svg.png
+    target: newtab
+  - title: WSO2 (Production)
+    description: Production API Management & Integration
+    url: https://am.besmart.travel/
+    icon: https://wso2.cachefly.net/wso2/sites/all/image_resources/wso2-branding-logos/wso2-logo.png
+    target: newtab  
+  - title: Operator Camunda (Production)
+    description: Production Workflow
+    url: http://operate.zeebe.besmart.travel/
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpG4EFH7TYMv_JGvF10FBq9EuUAVQNvz-GwA&s
+    target: newtab       
+  - title: Minio
+    description: S3-Compatible Object Storage
+    url: https://minio.beprimetech.com/browser
+    icon: https://miro.medium.com/v2/resize:fit:700/0*Ev_4QnYTqOQJysYJ.png
+    target: newtab       
+  - title: RabbitMQ (Production)
+    url: https://rabbitmq-management-ui.beprimetech.com/#/
+    icon: https://images.icon-icons.com/2699/PNG/512/rabbitmq_logo_icon_170812.png
+    target: newtab  
+
+- name: Documentation
+  icon: fas fa-book
+  items:
+  - title: Wiki
+    description: Internal Knowledge Base
+    url: https://wiki.besmart.travel/
+    icon: https://repository-images.githubusercontent.com/65848095/7655d480-b066-11e9-991b-81088c474331
+    target: newtab     

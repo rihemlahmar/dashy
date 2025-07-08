@@ -12,12 +12,12 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: dashy-docs
-  auth:
-    enableKeycloak: true
-    keycloak:
-      serverUrl: 'https://auth.develop.besmart.travel/'
-      realm: 'BE-SMART-TRAVEL'
-      clientId: 'dashy'
+  # auth:
+  #   enableKeycloak: true
+  #   keycloak:
+  #     serverUrl: 'https://auth.develop.besmart.travel/'
+  #     realm: 'BE-SMART-TRAVEL'
+  #     clientId: 'dashy'
 
 # Main content - An array of sections, each containing an array of items
 sections:

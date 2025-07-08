@@ -53,7 +53,42 @@ sections:
     url: https://137.74.94.24:8006/#v1:0:=qemu%2F300:4
     icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24d4hZDCTtwDNmfd24uH598v5vCLGDZs-fw&s
     target: newtab
+  - title: Proxmox Server 2
+    description: Secondary virtualization host
+    url: https://164.132.203.24:8006/#v1:0:=qemu%2F104:4
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24d4hZDCTtwDNmfd24uH598v5vCLGDZs-fw&s
+    target: newtab  
+  - title: pfSense Firewall 1
+    description: Primary Firewall
+    url: https://176.31.75.57/
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b9/PfSense_logo.png
+    target: newtab    
+  - title: pfSense Firewall 2
+    description: Secondary Firewall
+    url: http://91.121.35.184/
+    icon: https://upload.wikimedia.org/wikipedia/commons/b/b9/PfSense_logo.png
+    target: newtab    
+      
     
-
+- name: DevOps & CI/CD
+  icon: fas fa-code-branch
+  items:
+  - title: GitLab
+    description: Source Code & CI/CD Pipelines
+    url: http://gitlab.beprimetech.com:6969/
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/GitLab_icon.svg/1200px-GitLab_icon.svg.png
+    target: newtab
+  - title: ArgoCD
+    description: Continuous Delivery for Kubernetes
+    url: https://argocd.develop.beprimetech.com/
+    icon: https://miro.medium.com/v2/resize:fit:1400/1*An25ihShzJkhL3jAwUaWfg.png
+    target: newtab  
+  - title: Nexus
+    description: Artifact & Container Registry
+    url: https://nexus.beprimetech.com/repository/npm-group/
+    icon: https://miro.medium.com/v2/resize:fit:256/1*2b4k1_SmKkNRgqZV-NMFQg.png
+    target: newtab    
+  
+      
      
   

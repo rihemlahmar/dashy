@@ -45,7 +45,7 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
 
- - name: Monitoring
+- name: Monitoring
   icon: fas fa-rocket
   items:
   - title: Skywalking
@@ -53,7 +53,7 @@ sections:
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://skywalking.besmart.travel/General-Service/Services
     target: newtab  
-   - title: grafana
+  - title: grafana
     description: Development a project management links for Dashy
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://loki.besmart.travel/?orgId=1

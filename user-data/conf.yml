@@ -1,5 +1,4 @@
----
-# Page meta info, like heading, footer text and nav links
+
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
@@ -9,7 +8,7 @@ pageInfo:
   - title: Documentation
     path: https://dashy.to/docs
 
-# Optional app settings and configuration
+
 appConfig:
   theme: dashy-docs
   # auth:
@@ -24,7 +23,6 @@ appConfig:
       hash: 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
       type: admin
 
-# Main content - An array of sections, each containing an array of items
 sections:
 
 - name: Infrastructure & Networking
